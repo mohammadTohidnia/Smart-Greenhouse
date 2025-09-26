@@ -91,7 +91,7 @@ The project follows a **Cyber-Physical System (CPS)** model:
 
 ### HiveMQ Broker
 
-1. Create a free account on [HiveMQ](https://www.hivemq.com/?utm_source=adwords&utm_campaign=&utm_term=hive%20mq&utm_medium=ppc&hsa_tgt=kwd-1156701646538&hsa_cam=22496895017&hsa_src=g&hsa_net=adwords&hsa_kw=hive%20mq&hsa_ad=653297813212&hsa_grp=185625595384&hsa_ver=3&hsa_acc=3585854406&hsa_mt=e&gad_source=1&gad_campaignid=22496895017&gbraid=0AAAAADusSG6q7OGCOkTVrC9VUQhCkS-kV&gclid=CjwKCAjw89jGBhB0EiwA2o1On16HDdhYvWlA51tcHHlOKC258SsvpQez0zkLK5WYRzRaDV0Sv-vZiBoC9XUQAvD_BwE) and obtain a broker URL, username, and password from the link.  
+1. Create a free account on [HiveMQ](https://www.hivemq.com/?utm_source=adwords&utm_campaign=&utm_term=hive%20mq&utm_medium=ppc&hsa_tgt=kwd-1156701646538&hsa_cam=22496895017&hsa_src=g&hsa_net=adwords&hsa_kw=hive%20mq&hsa_ad=653297813212&hsa_grp=185625595384&hsa_ver=3&hsa_acc=3585854406&hsa_mt=e&gad_source=1&gad_campaignid=22496895017&gbraid=0AAAAADusSG6q7OGCOkTVrC9VUQhCkS-kV&gclid=CjwKCAjw89jGBhB0EiwA2o1On16HDdhYvWlA51tcHHlOKC258SsvpQez0zkLK5WYRzRaDV0Sv-vZiBoC9XUQAvD_BwE) and obtain a broker URL, username, and password.  
 
 ### Secure MQTT Connection
 
@@ -99,13 +99,23 @@ The project follows a **Cyber-Physical System (CPS)** model:
 
 ### Node-RED Installation
 
-3. Install **Node.js**, then install Node-RED following official instructions.  
-4. Install **node-red-dashboard** nodes for UI widgets.  
+3. Install [Node.js](https://nodejs.org/en/download), then install [Node-RED](https://nodered.org/docs/getting-started/local) following official instructions.
+4. Run the command below in your terminal to start Node-RED:
+
+```bash
+node-red
+
+5. Follow the created link for the node-red server.
+6. Install **node-red-dashboard** nodes for UI widgets
+7. Import the flow.json file in your flows section and deploy the flow.
+  
 
 ### ESP32 Configuration
 
 5. Flash the ESP32 code using **PlatformIO** or **Arduino IDE**.  
-6. Set up MQTT credentials and broker URL.  
+6. Set up your MQTT credentials and broker URL.
+7. To run the code as simulated in **Wokwi**, you have to follow the instructions in the [Link](https://docs.wokwi.com/vscode/getting-started).
+ 
 
 ---
 
