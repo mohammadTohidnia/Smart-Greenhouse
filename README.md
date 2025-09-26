@@ -91,7 +91,7 @@ The project follows a **Cyber-Physical System (CPS)** model:
 
 ### HiveMQ Broker
 
-1. Create a free account on HiveMQ and obtain a broker URL, username, and password.  
+1. Create a free account on [HiveMQ](https://www.hivemq.com/?utm_source=adwords&utm_campaign=&utm_term=hive%20mq&utm_medium=ppc&hsa_tgt=kwd-1156701646538&hsa_cam=22496895017&hsa_src=g&hsa_net=adwords&hsa_kw=hive%20mq&hsa_ad=653297813212&hsa_grp=185625595384&hsa_ver=3&hsa_acc=3585854406&hsa_mt=e&gad_source=1&gad_campaignid=22496895017&gbraid=0AAAAADusSG6q7OGCOkTVrC9VUQhCkS-kV&gclid=CjwKCAjw89jGBhB0EiwA2o1On16HDdhYvWlA51tcHHlOKC258SsvpQez0zkLK5WYRzRaDV0Sv-vZiBoC9XUQAvD_BwE) and obtain a broker URL, username, and password from the link.  
 
 ### Secure MQTT Connection
 
