@@ -103,7 +103,7 @@ The project follows a **Cyber-Physical System (CPS)** model:
 4. Run the command below in your terminal to start Node-RED:
 
 ```bash
-node-red
+node-red```
 
 
 5. Follow the created link for the node-red server.
