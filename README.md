@@ -105,6 +105,7 @@ The project follows a **Cyber-Physical System (CPS)** model:
 ```bash
 node-red
 
+
 5. Follow the created link for the node-red server.
 6. Install **node-red-dashboard** nodes for UI widgets
 7. Import the flow.json file in your flows section and deploy the flow.
